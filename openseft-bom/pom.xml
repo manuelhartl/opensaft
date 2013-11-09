@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.hartlit.openseft</groupId>
-	<artifactId>openseft-bom</artifactId>
+	<artifactId>opensaft-bom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -49,7 +49,7 @@
 	</dependencyManagement>
 	
 	<scm>
-		<connection>scm:git:git://github.com/manuelhartl/openseft.git</connection>
-		<developerConnection>scm:git:git://github.com/manuelhartl/openseft.git</developerConnection>
+		<connection>scm:git:git://github.com/manuelhartl/opensaft.git</connection>
+		<developerConnection>scm:git:git://github.com/manuelhartl/opensaft.git</developerConnection>
 	</scm>
 </project>
