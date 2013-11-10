@@ -228,7 +228,8 @@ public class FITReader {
 				System.out.print(" long=" + currentLong);
 			}
 			if (lastLat != -1) {
-				double meters = FitUtils.haversine_km(lastLat, lastLong, currentLat, currentLong);
+//				double meters = FitUtils.haversine_km(lastLat, lastLong, currentLat, currentLong);
+				double meters = FitUtils.vincenty_km(lastLat, lastLong, currentLat, currentLong);
 				totalMeters += lastLat == -1 ? 0 : meters;
 				System.out.print(" distance " + meters);
 			}
