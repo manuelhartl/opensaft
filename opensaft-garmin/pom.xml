@@ -5,6 +5,7 @@
 		<groupId>de.hartlit.opensaft</groupId>
 		<artifactId>opensaft-bom</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../opensaft-bom</relativePath>
 	</parent>
 
 	<artifactId>opensaft-garmin</artifactId>
