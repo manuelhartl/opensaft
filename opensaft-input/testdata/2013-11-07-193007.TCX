@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/ActivityExtension/v2 http://www.garmin.com/xmlschemas/ActivityExtensionv2.xsd http://www.garmin.com/xmlschemas/FatCalories/v1 http://www.garmin.com/xmlschemas/fatcalorieextensionv1.xsd http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Activities>
+    <Activity Sport="Other">
+      <Id>2013-11-07T18:30:07Z</Id>
+      <Lap StartTime="2013-11-07T18:30:07Z">
+        <TotalTimeSeconds>428.3829956</TotalTimeSeconds>
+        <DistanceMeters>350.0000000</DistanceMeters>
+        <MaximumSpeed>1.4650000</MaximumSpeed>
+        <Calories>88</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:31:20Z</Time>
+            <DistanceMeters>50.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7640000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:32:12Z</Time>
+            <DistanceMeters>100.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.9740000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:33:52Z</Time>
+            <DistanceMeters>150.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.4850000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:35:01Z</Time>
+            <DistanceMeters>200.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7590000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:36:10Z</Time>
+            <DistanceMeters>250.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7180000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:36:49Z</Time>
+            <DistanceMeters>300.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.2860000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:15Z</Time>
+            <DistanceMeters>350.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.4650000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>88</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.8180000</AvgSpeed>
+            <AvgRunCadence>26</AvgRunCadence>
+            <MaxRunCadence>32</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:37:15Z">
+        <TotalTimeSeconds>6.2270002</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:15Z</Time>
+            <DistanceMeters>350.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.4650000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:26Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:32Z</Time>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:37:32Z">
+        <TotalTimeSeconds>14.2189999</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:32Z</Time>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:37:46Z">
+        <TotalTimeSeconds>293.9840088</TotalTimeSeconds>
+        <DistanceMeters>200.0000000</DistanceMeters>
+        <MaximumSpeed>0.7310000</MaximumSpeed>
+        <Calories>51</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:37:47Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:39:06Z</Time>
+            <DistanceMeters>400.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7040000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:40:24Z</Time>
+            <DistanceMeters>450.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6600000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:41:26Z</Time>
+            <DistanceMeters>500.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7310000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>51</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.6800000</AvgSpeed>
+            <AvgRunCadence>25</AvgRunCadence>
+            <MaxRunCadence>31</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:42:40Z">
+        <TotalTimeSeconds>0.7810000</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:42:41Z</Time>
+            <DistanceMeters>550.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6320000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:42:42Z</Time>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:42:42Z">
+        <TotalTimeSeconds>68.7580032</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:42:42Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:42:43Z</Time>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T18:43:51Z">
+        <TotalTimeSeconds>1119.1639404</TotalTimeSeconds>
+        <DistanceMeters>800.0000000</DistanceMeters>
+        <MaximumSpeed>1.2320000</MaximumSpeed>
+        <Calories>198</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T18:43:52Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:45:01Z</Time>
+            <DistanceMeters>600.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.8550000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:46:07Z</Time>
+            <DistanceMeters>650.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6930000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:47:20Z</Time>
+            <DistanceMeters>700.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7080000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:48:29Z</Time>
+            <DistanceMeters>750.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7370000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:49:41Z</Time>
+            <DistanceMeters>800.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6870000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:51:00Z</Time>
+            <DistanceMeters>850.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6280000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:52:13Z</Time>
+            <DistanceMeters>900.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7220000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:53:20Z</Time>
+            <DistanceMeters>950.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7050000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:54:40Z</Time>
+            <DistanceMeters>1000.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6290000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:55:52Z</Time>
+            <DistanceMeters>1050.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7270000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:57:01Z</Time>
+            <DistanceMeters>1100.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6920000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:58:21Z</Time>
+            <DistanceMeters>1150.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.5930000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T18:59:28Z</Time>
+            <DistanceMeters>1200.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.8100000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:00:37Z</Time>
+            <DistanceMeters>1250.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7110000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:02:00Z</Time>
+            <DistanceMeters>1300.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6170000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>198</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.7150000</AvgSpeed>
+            <AvgRunCadence>23</AvgRunCadence>
+            <MaxRunCadence>31</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T19:02:30Z">
+        <TotalTimeSeconds>31.4610004</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T19:02:31Z</Time>
+            <DistanceMeters>1350.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.2320000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T19:03:01Z">
+        <TotalTimeSeconds>978.7030029</TotalTimeSeconds>
+        <DistanceMeters>600.0000000</DistanceMeters>
+        <MaximumSpeed>1.7090000</MaximumSpeed>
+        <Calories>143</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T19:03:02Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:04:28Z</Time>
+            <DistanceMeters>1400.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6440000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:05:42Z</Time>
+            <DistanceMeters>1450.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6630000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:06:20Z</Time>
+            <DistanceMeters>1500.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.2570000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:06:56Z</Time>
+            <DistanceMeters>1550.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>1.7090000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:08:06Z</Time>
+            <DistanceMeters>1600.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6780000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:09:29Z</Time>
+            <DistanceMeters>1650.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6090000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:10:43Z</Time>
+            <DistanceMeters>1700.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6950000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:12:55Z</Time>
+            <DistanceMeters>1750.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.3940000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:15:12Z</Time>
+            <DistanceMeters>1800.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.3450000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:16:52Z</Time>
+            <DistanceMeters>1850.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.5150000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:17:58Z</Time>
+            <DistanceMeters>1900.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7200000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>143</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.6130000</AvgSpeed>
+            <AvgRunCadence>23</AvgRunCadence>
+            <MaxRunCadence>30</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T19:19:20Z">
+        <TotalTimeSeconds>268.9219971</TotalTimeSeconds>
+        <DistanceMeters>0.0000000</DistanceMeters>
+        <Calories>0</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T19:19:21Z</Time>
+            <DistanceMeters>1950.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.5480000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.0000000</AvgSpeed>
+            <AvgRunCadence>0</AvgRunCadence>
+            <MaxRunCadence>0</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Lap StartTime="2013-11-07T19:23:49Z">
+        <TotalTimeSeconds>777.8750000</TotalTimeSeconds>
+        <DistanceMeters>500.0000000</DistanceMeters>
+        <MaximumSpeed>0.7250000</MaximumSpeed>
+        <Calories>119</Calories>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-11-07T19:23:50Z</Time>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:25:12Z</Time>
+            <DistanceMeters>2000.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6750000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:26:23Z</Time>
+            <DistanceMeters>2050.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6870000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:27:57Z</Time>
+            <DistanceMeters>2100.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.5470000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:29:08Z</Time>
+            <DistanceMeters>2150.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6560000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:30:32Z</Time>
+            <DistanceMeters>2200.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6070000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:31:46Z</Time>
+            <DistanceMeters>2250.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.7250000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:32:58Z</Time>
+            <DistanceMeters>2300.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6830000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:34:12Z</Time>
+            <DistanceMeters>2350.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6720000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+          <Trackpoint>
+            <Time>2013-11-07T19:35:29Z</Time>
+            <DistanceMeters>2400.0000000</DistanceMeters>
+            <Extensions>
+              <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2" CadenceSensor="Footpod">
+                <Speed>0.6500000</Speed>
+              </TPX>
+            </Extensions>
+          </Trackpoint>
+        </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>119</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>0.6430000</AvgSpeed>
+            <AvgRunCadence>22</AvgRunCadence>
+            <MaxRunCadence>30</MaxRunCadence>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Creator xsi:type="Device_t">
+        <Name>GARMIN SWIM</Name>
+        <UnitId>3869948001</UnitId>
+        <ProductID>1499</ProductID>
+        <Version>
+          <VersionMajor>0</VersionMajor>
+          <VersionMinor>3</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin ANT Agent(tm)</Name>
+    <Build>
+      <Version>
+        <VersionMajor>2</VersionMajor>
+        <VersionMinor>3</VersionMinor>
+        <BuildMajor>4</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Feb 15 2013, 17:22:33</Time>
+      <Builder>leon</Builder>
+    </Build>
+    <LangID>DE</LangID>
+    <PartNumber>006-A0214-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>
