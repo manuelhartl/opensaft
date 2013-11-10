@@ -39,6 +39,8 @@ import com.garmin.fit.SessionMesgListener;
 import com.garmin.fit.UserProfileMesg;
 import com.garmin.fit.UserProfileMesgListener;
 
+import de.hartlit.opensaft.common.geodetic.CoordinatesUtils;
+
 public class FITReader {
 
 	private MesgBroadcaster mesgBroadcaster;
@@ -219,17 +221,16 @@ public class FITReader {
 			if (mesg.getHeartRate() != null) {
 				System.out.print(" hr:" + mesg.getHeartRate());
 			}
-			double currentLat = FitUtils.semicircles2degrees(mesg.getPositionLat());
+			double currentLat = CoordinatesUtils.semicircles2degrees(mesg.getPositionLat());
 			if (mesg.getPositionLat() != null) {
 				System.out.print(" lat=" + currentLat);
 			}
-			double currentLong = FitUtils.semicircles2degrees(mesg.getPositionLong());
+			double currentLong = CoordinatesUtils.semicircles2degrees(mesg.getPositionLong());
 			if (mesg.getPositionLong() != null) {
 				System.out.print(" long=" + currentLong);
 			}
 			if (lastLat != -1) {
-//				double meters = FitUtils.haversine_km(lastLat, lastLong, currentLat, currentLong);
-				double meters = FitUtils.vincenty_km(lastLat, lastLong, currentLat, currentLong);
+				double meters = CoordinatesUtils.vincenty_km(lastLat, lastLong, currentLat, currentLong);
 				totalMeters += lastLat == -1 ? 0 : meters;
 				System.out.print(" distance " + meters);
 			}

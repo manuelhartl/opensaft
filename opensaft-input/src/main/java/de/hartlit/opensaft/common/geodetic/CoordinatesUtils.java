@@ -1,6 +1,5 @@
-package de.hartlit.opensaft.input.fit;
+package de.hartlit.opensaft.common.geodetic;
 
-import de.hartlit.opensaft.common.geodetic.VincentyDistanceCalculator;
 
 
 
@@ -9,11 +8,10 @@ import de.hartlit.opensaft.common.geodetic.VincentyDistanceCalculator;
  * @author Manuel Hartl / hartl-it.de
  * 
  */
-public class FitUtils {
+public class CoordinatesUtils {
 
 	// MI / 180
 	private static double d2r = 0.0174532925199433d;
-//	private static double d2r = Math.PI / 180;
 
 	/**
 	 * semicircles = degrees * ( 2^31 / 180 )
@@ -39,12 +37,4 @@ public class FitUtils {
 		return VincentyDistanceCalculator.getDistance(lat1, long1, lat2, long2);
 	}	
 
-//	public static double haversine_km(double lat1, double lon1, double lat2, double lon2) {
-//		return 2 * Math.asin(Math.sqrt(Math.pow(Math.sin((lat1 - lat2) / 2), 2) + Math.cos(lat1) * Math.cos(lat2)
-//				* Math.pow(Math.sin((lon1 - lon2) / 2), 2)));
-//	}
-	
-	// d=acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(lon1-lon2))
-	//d=2*asin(sqrt((sin((lat1-lat2)/2))^2 +cos(lat1)*cos(lat2)*(sin((lon1-lon2)/2))^2))
-	
 }
