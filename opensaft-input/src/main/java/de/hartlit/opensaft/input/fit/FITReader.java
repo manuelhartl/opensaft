@@ -40,8 +40,14 @@ import com.garmin.fit.UserProfileMesg;
 import com.garmin.fit.UserProfileMesgListener;
 
 import de.hartlit.opensaft.common.geodetic.CoordinatesUtils;
+import de.hartlit.opensaft.input.ActivityReader;
 
-public class FITReader {
+/**
+ * 
+ * @author Manuel Hartl / hartl-it.de
+ *
+ */
+public class FITReader implements ActivityReader {
 
 	private MesgBroadcaster mesgBroadcaster;
 
@@ -255,7 +261,8 @@ public class FITReader {
 
 	}
 
-	public FITReader(InputStream in) {
+	@Override
+	public void parse(InputStream inputStream) throws IOException {
 		Decode decode = new Decode();
 //		decode.setSystemTimeOffset(60 * 60);
 		mesgBroadcaster = new MesgBroadcaster(decode);
@@ -287,14 +294,16 @@ public class FITReader {
 		mesgBroadcaster.addListener((MonitoringInfoMesgListener) new MyMonitoringMesgListener());
 		mesgBroadcaster.addListener(new MyMesgListener());
 		try {
-			mesgBroadcaster.run(in);
+			mesgBroadcaster.run(inputStream);
 		} catch (FitRuntimeException e) {
 			throw new RuntimeException(e);
 		} finally {
 			try {
-				in.close();
+				inputStream.close();
 			} catch (IOException e) {
 			}
 		}
 	}
+
+
 }

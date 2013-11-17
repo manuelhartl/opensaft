@@ -7,9 +7,9 @@ import java.io.OutputStream;
  * @author Manuel Hartl / hartl-it.de
  * 
  */
-public class HRMWriter {
+public class HRMWriter implements ActivityWriter {
 
-	public HRMWriter(OutputStream outputStream) {
+	public void write(OutputStream outputStream) {
 		// TODO Auto-generated constructor stub
 	}
 
