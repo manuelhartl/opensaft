@@ -29,24 +29,6 @@
 			<artifactId>opensaft-garmin-tcx</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>com.garmin.schemas</groupId>
-			<artifactId>tcx-v2</artifactId>
-			<version>1.0</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>jaxb-xjc</artifactId>
-					<groupId>jaxb</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.xml.bind</groupId>
-			<artifactId>jaxb-xjc</artifactId>
-			<version>2.0.5</version>
-		</dependency>
-		 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -55,6 +37,7 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 		</dependency>
+				
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

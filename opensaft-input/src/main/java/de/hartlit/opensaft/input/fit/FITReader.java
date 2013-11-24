@@ -41,15 +41,19 @@ import com.garmin.fit.UserProfileMesgListener;
 
 import de.hartlit.opensaft.common.geodetic.CoordinatesUtils;
 import de.hartlit.opensaft.input.ActivityReader;
+import de.hartlit.opensaft.input.ActivityReaderEvent;
 
 /**
  * 
  * @author Manuel Hartl / hartl-it.de
- *
+ * 
+ * 
+ * not thread safe
  */
 public class FITReader implements ActivityReader {
 
 	private MesgBroadcaster mesgBroadcaster;
+	private ActivityReaderEvent activityReaderEvent;
 
 	private class MyDeviceSettingsMesgListener implements DeviceSettingsMesgListener {
 
@@ -262,7 +266,9 @@ public class FITReader implements ActivityReader {
 	}
 
 	@Override
-	public void parse(InputStream inputStream) throws IOException {
+	public void parse(InputStream inputStream, ActivityReaderEvent activityReaderEvent) throws IOException {
+		this.activityReaderEvent=activityReaderEvent;
+		
 		Decode decode = new Decode();
 //		decode.setSystemTimeOffset(60 * 60);
 		mesgBroadcaster = new MesgBroadcaster(decode);
@@ -277,7 +283,7 @@ public class FITReader implements ActivityReader {
 		// } catch (java.io.IOException e) {
 		// throw new RuntimeException(e);
 		// }
-		// }
+		// }t
 
 		mesgBroadcaster.addListener((FileIdMesgListener) listener);
 		mesgBroadcaster.addListener((UserProfileMesgListener) listener);
